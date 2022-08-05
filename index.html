@@ -7,122 +7,148 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="font/css/all.min.css">
-    <link rel="stylesheet" href="st.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <meta name="vieport" content="width=device-width, initial-scale=1.0">
 
-    <title>Deli News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>PUSAT WARTA</title>
   </head>
   <body>
-    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <marquee behavior="" direction=""><b>PUSAT WARTA</b></marquee>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        
+          </ul>
+          <form class="form-inline my-2 my-lg-0 ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
 
-      <!--Bagian Sidebar Kiri-->
-      <div class="con">
-        <div class="sidebar">
-          <div class="header">
-            <div class="list-item">
-              <a href="#">
-                <img src="/img/favicon.ico" alt="" class="icon">
-                <span class="deskripsi-header">Deli News</span>
-              </a>
-            </div>
-          </div>
-          <div class="main">
-            <div class="list-item">
-              <a href="index.html" target="_blank">
-                <i class="fa-solid fa-house-circle-check"></i>
-                <span class="deskripsi">Home</span>
-              </a>
-            </div>
-          </div>
+          <!--IKON MEDSOS-->
 
-          <div class="main">
-            <div class="list-item">
-              <a href="berita_nasional.html" target="_blank">
-                <i class="fa-solid fa-building-flag"></i>
-                <span class="deskripsi">Berita Nasional</span>
-              </a>
-            </div>
+          <div class="icon ml-4">
+              <h5>
+                <i class="fa-brands fa-facebook mr-3" data-toggle="tooltip" title="facebook"></i>
+                <i class="fa-brands fa-youtube mr-3" data-toggle="tooltip" title="youtube"></i>
+                <i class="fa-brands fa-instagram mr-3" data-toggle="tooltip" title="instagram"></i>
+                
+              </h5>
           </div>
 
-          <div class="main">
-            <div class="list-item">
-              <a href="berita_lokal.html" target="_blank">
-                <i class="fa-solid fa-map-location-dot"></i>
-                <span class="deskripsi">Berita Lokal</span>
-              </a>
-            </div>
+        </div>
+      </nav>
+
+      <!--MEMBAGI DUA KOLOM-->
+      <div class="row no-gutters mt-5">
+          <div class="col-md-2 mt-2 pr-3 pt-4">
+            <ul class="nav flex-column ml-3 mb-5">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="index.html"><i class="fa-solid fa-house-circle-exclamation mr-2"></i>Home</a><hr>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="berita_nasional.html"><i class="fa-solid fa-building-flag mr-2"></i>Berita Nasional</a><hr>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="berita_lokal.html"><i class="fa-solid fa-map-location-dot mr-2"></i>Berita Lokal</a><hr>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="berita_internasional.html"><i class="fa-solid fa-globe mr-2"></i>Berita Internasional</a><hr>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="event.html"><i class="fa-solid fa-calendar-days mr-2"></i>Event</a><hr>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="selengkapnya.html"><i class="fa-solid fa-folder-open mr-2"></i>Selengkapnya</a><hr>
+                </li>
+            </ul>
+            <div class="nama">&copy; Copyright | SY-Web</div>
           </div>
 
-          <div class="main">
-            <div class="list-item">
-              <a href="berita_internasional.html" target="_blank">
-                <i class="fa-solid fa-globe"></i>
-                <span class="deskripsi">Berita Internasional</span>
-              </a>
-            </div>
-          </div>
+          <div class="col-md-10 p-5 pt-2">
+              <h3><marquee behavior="" direction=""><i class="fa-solid fa-hourglass mr-2"></i><b>KABAR TERKINI</b></marquee></h3><hr>
+              
 
-          <div class="main">
-            <div class="list-item">
-              <a href="selengkapnya.html" target="_blank">
-                <i class="fa-solid fa-folder-closed"></i>
-                <span class="deskripsi">Selengkapnya</span>
-              </a>
-            </div>
-          </div>
+              <div class="row">
+                <div class="card ml-5" style="width: 18rem;">
+                    <img src="img/perang.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rusia Vs Ukraina</h5>
+                        <p class="card-text">Perang antara Ukraina dengan Rusia belum kunjung usai..</p>
+                        <a href="#" class="btn btn-light">Selengkapnya <i class="fa-solid fa-location-arrow"></i></a>
+                    </div>
+                  </div>
 
-          <div class="profil">
-            <div class="profill">
-              <div class="profilll">
-                <div class="namaj">&copy; Copyright | SY-Web | Deli News</div>
+                  <div class="card ml-5" style="width: 18rem;">
+                    <img src="img/perang.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rusia Vs Ukraina</h5>
+                        <p class="card-text">Perang antara Ukraina dengan Rusia belum kunjung usai..</p>
+                        <a href="#" class="btn btn-light">Selengkapnya <i class="fa-solid fa-location-arrow"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="card ml-5" style="width: 18rem;">
+                    <img src="img/perang.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rusia Vs Ukraina</h5>
+                        <p class="card-text">Perang antara Ukraina dengan Rusia belum kunjung usai..</p>
+                        <a href="#" class="btn btn-light">Selengkapnya <i class="fa-solid fa-location-arrow"></i></a>
+                    </div>
+                  </div>
+
+              </div>
+
+              <div class="row mt-4">
+                  <div class="card ml-5 text-center" style="width:18rem;">
+                      <div class="card-header bg-light display-4 pt-4 pb-4">
+                        <i class="fa-solid fa-futbol"></i></div>
+                      <div class="card-body">
+                          <h5 class="card-title">Sepak Bola Vs Corona</h5>
+                        
+                          <a href="#" class="btn btn-light">Selengkapnya <i class="fa-solid fa-location-arrow"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="card ml-5 text-center" style="width:18rem;">
+                    <div class="card-header bg-light display-4 pt-4 pb-4">
+                        <i class="fa-solid fa-basketball"></i></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tim Basket INA Wajib Menang</h5>
+                      
+                        <a href="#" class="btn btn-light">Selengkapnya <i class="fa-solid fa-location-arrow"></i></a>
+                  </div>
+                </div>
+
+                <div class="card ml-5 text-center" style="width:18rem;">
+                    <div class="card-header bg-light display-4 pt-4 pb-4">
+                        <i class="fa-solid fa-shirt"></i></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Citayem Fashion Week</h5>
+                      
+                        <a href="#" class="btn btn-light">Selengkapnya <i class="fa-solid fa-location-arrow"></i></a>
+                  </div>
+                </div>
                 
               </div>
-            </div>
+
+              
+
           </div>
-
-            
-
-        </div>
-
-        
-        <div class="main-content">
-          <div id="menu-buton">
-            <input type="checkbox"  id="menu-cek">
-            <label for="menu-cek" id="menu-label">
-              <div id="hamburger"></div>
-            </label>
-          </div>
-
-          <div class="isi-berita">
-            <!--<marquee behavior="" direction="">Welcome to <b>Deli News.</b> <b>Deli News</b> Terupdate & Terpercaya. <b>Deli News</b> Hadir Untuk Anda!!</marquee>-->
-
-            
-            
-          </div>
-        </div>
       </div>
-
-
-
-
-
-      <script src="ja.js"></script>
-      
-    
-    
-
-
-
-
-    
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jaa.js"></script>
   </body>
 </html>
